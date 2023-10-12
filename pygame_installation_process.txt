@@ -1,0 +1,23 @@
+
+How to install pygame
+Pygame is an essential module used for this program. Please install it
+so it will run if you don't have it already (:
+
+1. 	Install python. To check if you already python is installed, open your command prompt 
+	and enter the following command. If there python is installed it should display
+	the current version of python that you have.
+		python --version
+
+2. 	If python is installed, check if you have pip installed by entering the following
+	command and if the version of pip is displayed then all is fine.
+        pip --version
+
+3. 	Now you can install pygame using the following command
+        pip install pygame
+
+4. 	Now to test if your pygame module is installed properly, you will have to run python
+	on your terminal and attempt to import pygame. If
+	"Hello from the pygame community. https://www.pygame.org/contribute.html" is displayed
+	then you have isntalled pygame properly.
+        python
+        >> import pygame
